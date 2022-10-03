@@ -61,25 +61,27 @@ main {
 }
 
 .float-left-about {
+    float: left;
     white-space: nowrap;
     min-width: 250px;
-    min-height: 250px;
 }
 
 .float-left-work {
+    float: left;
     white-space: nowrap;
     min-width: 250px;
-    min-height: 600px;
 }
 
 .float-left-contact {
+    float: left;
     white-space: nowrap;
     min-width: 250px;
-    min-height: 200px;
+    min-height: 100px
 }
 
 .info {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .info h2 {
@@ -91,15 +93,14 @@ main {
 .info p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+    float: right;
 }
 
 .container-work {
-    
     display: grid;
     grid-gap: 10px;
     max-width: 90%;
     margin: 0 auto;
-
 }
 
 .square {
@@ -111,17 +112,12 @@ main {
     display:flex;
     flex-direction:column;
     border-radius: 25px;
-    position: relative;
     top: 0;
     text-decoration: none;
 }
 
 .bigbox {
-    grid-column: 1 / span 2;
-}
-
-.smallbox {
-
+    grid-column: 1 / span 3;
 }
 
 /* Footer */

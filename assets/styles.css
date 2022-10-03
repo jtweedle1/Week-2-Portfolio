@@ -4,11 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:#DDDDDD;
+    background-color:#ffffff;
 }
 
+/* Header */
+
 .logo {
-    width: 45px;
+    width: 40px;
     cursor: pointer;
 }
 
@@ -25,11 +27,7 @@ header img {
     display: inline-block;
 }
 
-.nav-links {
-    background-color: #FF5733;
-}
-
-li, a {
+header li, a {
     display: inline-block;
     font-family: "Silkscreen";
     font-size: 20px;
@@ -39,6 +37,40 @@ li, a {
     background-color: #FF5733;
 }
 
+.nav-links {
+    background-color: #FF5733;
+}
+
+/* Main with Sections */
+
+main {
+
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.info {
+    margin: 20px;
+    width: 100%;
+}
+
+.info h2 {
+    float: left;
+    width: 350px;
+    display: inline-block;
+    font-family: "Silkscreen";
+    font-size: 40px;
+    color: #FF5733;
+}
+
+.info p {
+    display: block;
+    font-family: verdana;
+}
+
+/* Footer */
+
 footer {
    text-align: center;
    position: fixed;
@@ -46,9 +78,10 @@ footer {
    width: 100%;
    height: 60px;   /* Height of the footer */
    background-color: #FF5733;
+   clear: both;
 }
 
-footer p, h2 {
+footer p, footer h2 {
     display: inline-block;
     font-family: "Silkscreen";
     font-size: 15px;

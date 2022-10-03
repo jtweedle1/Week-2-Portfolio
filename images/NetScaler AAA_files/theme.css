@@ -1,0 +1,146 @@
+.web-screen{ 
+ background-image : url('../custom_media/HC151-New-Citrix-Login-Page-Background_v2.1.jpg'); 
+ background-size:cover; 
+} 
+
+
+.logon-logo-container { 
+background-image : url('../custom_media/GUGG_logo_white_350x26.png'); 
+ }
+
+.logon-logo-container.NS-AAA { 
+background-image : url('../custom_media/GUGG_logo_white_350x26.png'); 
+ }
+
+.logon-large.logon-logo-container { 
+background-image : url('../custom_media/GUGG_logo_white_350x26.png'); 
+ }
+
+.logon-small.logon-logo-container { 
+background-image : url('../custom_media/GUGG_logo_white_350x26.png'); 
+ }
+
+.logon-large.logon-logo-container.NS-AAA { 
+background-image : url('../custom_media/GUGG_logo_white_350x26.png'); 
+ }
+
+.logon-small.logon-logo-container.NS-AAA { 
+background-image : url('../custom_media/GUGG_logo_white_350x26.png'); 
+ }
+
+.credentialform h1{ 
+ font-size: 20px;
+}
+
+.web-screen .main-text{ 
+ font-size: 20px;
+}
+
+.credentialform h1{ 
+ color: #ffffff;
+}
+
+.web-screen .main-text{ 
+ color: #ffffff;
+}
+
+.credentialform .plain{ 
+ font-size: 16px;
+}
+
+.credentialform .field .checkbox label{ 
+ font-size: 16px;
+}
+
+.credentialform .standaloneText{ 
+ font-size: 16px;
+}
+
+.web-screen .detail-text{ 
+ font-size: 16px;
+}
+
+.credentialform .plain{ 
+ color: #9a9a9a;
+}
+
+.credentialform .field .checkbox label{ 
+ color: #9a9a9a;
+}
+
+.credentialform .standaloneText{ 
+ color: #9a9a9a;
+}
+
+.web-screen .detail-text{ 
+ color: #9a9a9a;
+}
+
+.clientchoices_description{ 
+ color: #9a9a9a;
+}
+
+.button.default {
+ background-color : #5e8ab4;
+}
+
+.personal_bm_addbox button {
+ background: #5e8ab4;
+}
+
+.button.default:hover {
+ background: #5e8ab4;
+}
+
+.personal_bm_addbox button:hover {
+ background: #5e8ab4;
+}
+
+.theme-header-bgcolor {
+ background-color :#574f5b; 
+}
+
+.web-screen .content-area {
+ background :rgba(83, 40, 79, 0.8); 
+}.box  {
+ background-color :rgba(83, 40, 79, 0.8); 
+}.block-container .box:hover  {
+ background-color :rgba(83, 40, 79, 0.8); 
+}
+
+.largeTiles .storeapp .storeapp-name {
+ color :#333333; 
+}
+
+.appInfoName {
+ color :#333333; 
+}
+
+.store-apps-title {
+ color :black; 
+}
+
+.toolbar-button-unselected {
+ color :black; 
+}
+
+.storeapp-category {
+ color :#999999; 
+}
+
+.appInfoCategoriesOrHostName {
+ color :#999999; 
+}
+
+.app-description {
+ color :#999999; 
+}
+
+#authUsers {
+	position:absolute;
+	text-align:center;
+	color:rgba(255, 255, 255, 0.8);
+	font-size:12px;
+	font-weight:bold;
+	width:100%;
+}

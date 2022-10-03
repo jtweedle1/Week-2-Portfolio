@@ -72,11 +72,34 @@ main {
     min-width: 250px;
 }
 
+.float-left-work h2 {
+    float: left;
+    white-space: nowrap;
+    min-width: 250px;
+}
+
 .float-left-contact {
     float: left;
     white-space: nowrap;
     min-width: 250px;
     min-height: 100px
+}
+.main-sections h2 {
+    color: #FF5733;
+    font-family: "Silkscreen";
+    font-size: 40px;
+}
+
+.main-sections h2 {
+    color: #FF5733;
+    font-family: "Silkscreen";
+    font-size: 40px;
+}
+
+.main-sections p {
+    color: #000;
+    font-family: "Courier New";
+    font-size: 20px;
 }
 
 .info {
@@ -93,31 +116,35 @@ main {
 .info p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
-    float: right;
 }
 
 .container-work {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-gap: 10px;
     max-width: 90%;
     margin: 0 auto;
 }
 
 .square {
+    width: 39vw;
+    height: 13vw;
     border-width: thick;
     color: #FF5733;
     border-style: dashed;
-    min-height: 100%;
-    background: white;
-    display:flex;
-    flex-direction:column;
     border-radius: 25px;
     top: 0;
-    text-decoration: none;
 }
 
 .bigbox {
-    grid-column: 1 / span 3;
+    width: 39vw;
+    height: 39vw;
+    color: #FF5733;
+    border-width: thick;
+    border-style: dashed;
+    border-radius: 25px;
+    top: 0;
+    text-decoration: none;
 }
 
 /* Footer */

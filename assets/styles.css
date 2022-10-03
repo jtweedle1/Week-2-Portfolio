@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Silkscreen');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Mono');
 
 * {
     box-sizing: border-box;
@@ -10,8 +11,18 @@
 /* Header */
 
 .logo {
-    width: 40px;
+    width: 60px;
     cursor: pointer;
+    padding-left: 20px
+}
+
+h1 {
+    font-family: "Silkscreen";
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 10px;
+    background-color: #FF5733;
 }
 
 header {
@@ -20,6 +31,7 @@ header {
     align-items: center;    
     height: 100px !important;
     background-color: #FF5733;
+    clear: both;
 }
 
 header img {
@@ -44,28 +56,66 @@ header li, a {
 /* Main with Sections */
 
 main {
-
-    display: inline-block;
     margin-top: 30px;
     margin-left: 50px;
 }
 
+.float-left {
+    float: left;
+    white-space: nowrap;
+    min-width: 350px;
+    min-height: 250px;
+}
+
+.float-left-work {
+    float: left;
+    white-space: nowrap;
+    min-width: 350px;
+    min-height: 450px;
+}
+
+.float-right {
+    float: right;
+}
+
 .info {
-    width: 100%;
+    display: flex;
 }
 
 .info h2 {
-    float: left;
-    width: 350px;
-    display: inline-block;
     font-family: "Silkscreen";
     font-size: 40px;
     color: #FF5733;
+    display: flex;
 }
 
 .info p {
-    display: block;
-    font-family: verdana;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.projectmain {
+    float: left;
+    border-style: solid;
+    max-height: 20vw;
+    max-width: 60vw;
+    min-height: 24vw;
+    min-width: 35vw;
+    border-width: thick;
+    color: #FF5733;
+    border-style: dashed;
+}
+
+.projectsub {
+    display: flex;
+    max-width: 20vw;
+    min-height: 8vw;
+    border-style: solid;
+    min-width: 35vw;
+    min-height: 8vw;
+    border-width: thick;
+    color: #FF5733;
+    border-style: dashed;
 }
 
 /* Footer */

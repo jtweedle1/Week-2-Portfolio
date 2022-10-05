@@ -1,85 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Information -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Jazmin Tweedle</title>
-    <link rel="stylesheet" href="C:\Users\jazmi\desktop\bootcamp\Week-2-Portfolio\assets\styles.css">
-    <link rel="stylesheet" href="C:\Users\jazmi\desktop\bootcamp\Week-2-Portfolio\assets\normalize.css">
+    <title>Jazmin Tweedle</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/normalize.css">
 </head>
 
-<!-- Body -->
 <body>
-    <div id="page-container">
-        <div id="content-wrap">
-
-    <!-- Header -->
-    <header>
-            <img class="logo" src="images/hero-chao.webp" alt="logo">
-            <h1>Jazmin Tweedle</h1>
-            <!-- Navigation -->
-        <nav>   
-            <ul class = "nav-links">
-                <li><a href ="#about-me">About Jazmin</a></li>
-                <li><a href ="#my-work">My Work</a></li>
-                <li><a href ="#contact">Contact</a></li>
-                <li><a href ="https://drive.google.com/file/d/1QuauCASyBe2putELzdn6_G7fpBMCO565/view?usp=sharing">Resume</a></li>
-            </ul>
-        </nav>
+    <header class="flexbox-header">
+        <img class="logo" src="images/hero-chao.webp" alt="logo">
+        <h1>Jazmin Tweedle</h1>
+        <!-- Navigation -->
+    <nav>   
+        <ul class = "nav-links">
+            <li><a href ="#about-me">About Jazmin</a></li>
+            <li><a href ="#my-work">My Work</a></li>
+            <li><a href ="#contact">Contact</a></li>
+            <li><a href ="https://drive.google.com/file/d/1QuauCASyBe2putELzdn6_G7fpBMCO565/view?usp=sharing">Resume</a></li>
+        </ul>
+    </nav>
     </header>
 
-    <!-- Main with Sections -->
-    <main>
-        <div>
-            <section id="about-me" class="main-sections">
-                <section class="float-left-about"><h2>About</h2></section>
-                <p>Jazmin is an aspiring software developer based in Chicago, IL. She attended the University of Chicago and graduated in June of 2020 with a Bachelor of Arts in Biological Sciences. She is currently a Paralegal at an investment firm, learning about the intricacies of corporate governance and legal applications. If she had a dream, it would be to develop software: maybe for a gaming studio, a tech bastion, or another exciting place to work and grow. 
-                </p>
-            </section>
+    <!-- About Me -->
+    <div class="flexbox-container1" id="about-me">
+        <div class="flexbox-item flexbox-headings">
+            <h2>About Me</h2>
             <br>
-            <br>
-            <section id="my-work" class="main-sections">
-                <section class="float-left-work"><h2>My Work</h2></section>
-                    <div class = container-work>
-                        <div class="bigbox">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                        <div class = "small-squares">
-                            <div class="square">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-
-                            <div class="square">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-
-                            <div class="square">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                        </div>
-
-                    </section>
-            </section>
-            <br>
-            <br>
-            <section id="contact" class="main-sections">
-                <section class="float-left-contact"><h2>Contact</h2></section>
-                <p class="float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </section>
+            
+            <div><img src="images/me.jpg.jpg" class="meimg"></div>
         </div>
+        <div class="flexbox-item flexbox-content">
+            <ul><li>I'm an aspiring software developer based in Chicago, IL.</li> <li>I attended the University of Chicago and graduated in June of 2020 with a Bachelor of Arts in Biological Sciences.</li> <li>I'm currently a Paralegal at an investment firm, learning about the intricacies of corporate governance and legal applications.</li><li>If I had a dream, it would be to develop software: maybe for a gaming studio, a tech bastion, or another exciting place to work and grow.</li>  
+            </ul>
+        </div>
+      
+    </div>
+    <br>
+    <br>
+    <!-- My Work -->
+    <div class="flexbox-container2" id="my-work">
+        <div class="flexbox-item flexbox-headings">
+            <h2>My Work</h2>
+        </div>
+        <div class="flexbox-item flexbox-content">
+            <div class="flexbox-work">
+                    <div class="flexbox-workitembig color">
+                        <img src="images/portfolio1.png" class="projectimg">
+                    </div>
+                    <div class="flexbox-smallitems color">
+                        <div class="flexbox-workitemsmall" ><img src="images/portfolio2.png" class="projectimg"></div>
+                        <div class="flexbox-workitemsmall color"><img src="images/portfolio3.webp" class="projectimg"></div>
+                        <div class="flexbox-workitemsmall color"><img src="images/portfolio3.webp" class="projectimg"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
 
-    </main>
+    <!-- Contact -->
+    <div class="flexbox-container3" id="contact">
+        <div class="flexbox-item flexbox-headings">
+            <h2>Contact</h2>
+        </div>
+        <div class="flexbox-item flexbox-content">
+            <ul class = "ulcontact">
+                <li><a href ="https://www.linkedin.com/in/jazmin-renee/">LINKEDIN</a></li>
+                <li><a href ="https://github.com/jtweedle1">GITHUB</a></li>
+                <li><a href ="mailto:jXXXXXXXXXXX@gmail.com">JXXXXXXXXXX@GMAIL.COM</a></li>
+                <li><a href ="">(217)-xxx-xxxx</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="flexbox-footer" >
+        <div >
+            <h3>Created by Jazmin Tweedle</h3>
 
-    <!-- Footer -->
-    <footer id="footer">
-        
-        <h2>Created by Jazmin Tweedle</h2>
-        <br>
-        <p>
-            &copy; 2022 Tweedle, Inc.
-        </p>
+            <p>
+                &copy; 2022 Tweedle, Inc.
+            </p>
+        </div>
     </footer>
-
-</div>
-</div>
 </body>
-
-
 
 </html>

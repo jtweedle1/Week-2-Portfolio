@@ -263,8 +263,8 @@ span {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     background-image: url("../images/portfolio2.png");
-    background-size: fill;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
     width: 30vw;
     border: 3px solid #FF5733;
     border-style: dashed;

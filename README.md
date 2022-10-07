@@ -11,7 +11,7 @@ This project was created for the purpose of putting our HTML and CSS knowledge i
 * Responsive web design that changes depending on screen size
 * Flexible header and footer
 * Flexbox-style portfolio windows with links to deployed projects
-* About Me, My Work, and Contact sections with their own specific pieces of content
+* About Me, My Work, and Contact sections with their own specific sections of content
 
 ## Installation ##
 The website can be viewed here: [Jazmin's Professional Portfolio](insert link)
@@ -23,9 +23,10 @@ General project installation instructions:
 4. Feel free to make any necessary changes! Mix it up!
 
 ## Credits ##
-* [Semantic vs. Non-Semantic Elements](https://www.educative.io/answers/what-are-the-semantic-and-non-semantic-elements-in-html)
-* [HTML <img> alt Attribute](https://www.w3schools.com/tags/att_img_alt.asp)
-* [HTML5 Semantic Tags: What They Are and How to Use Them!](https://www.semrush.com/blog/semantic-html5-guide/)
+* [HTML Color Codes](https://htmlcolorcodes.com/)
+* [Free Google Fonts](https://fonts.google.com/specimen/Silkscreen)
+* [HTML Checker](https://validator.w3.org/nu/)
+* [Button Hover Effect](https://thebrandsmen.com/css-image-hover-effects/)
 
 ## License ##
 This projects utilizes the MIT license. Please see the LICENSE.md file for more information.

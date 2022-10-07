@@ -264,7 +264,7 @@ span {
     -webkit-filter: grayscale(100%);
     background-image: url("../images/portfolio2.png");
     background-size: contain;
-    background-repeat: repeat;
+    background-repeat: repeat-x;
     border: 3px solid #FF5733;
     border-style: dashed;
     border-radius: 25px;

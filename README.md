@@ -29,6 +29,7 @@ General project installation instructions:
 * [Free Google Fonts](https://fonts.google.com/specimen/Silkscreen)
 * [HTML Checker](https://validator.w3.org/nu/)
 * [Button Hover Effect](https://thebrandsmen.com/css-image-hover-effects/)
+[Image of Chao (Little Creature Icon in Header)](https://sonic.fandom.com/wiki/Hero_Chao)
 
 ## License ##
 This projects utilizes the MIT license. Please see the LICENSE.md file for more information.

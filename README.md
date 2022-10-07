@@ -9,6 +9,8 @@
 ## Description ##
 This project was created for the purpose of putting our HTML and CSS knowledge into practice. The best way to get better at coding is to do just that - code, over and over again! I learned about multiple aspects of HTML and CSS functionality, including how to make a website responsive, creating headers and footers, mastering flexbox, among others. I had a lot of fun making this website and I feel that with some more experience and some tweaks it would actually be a great professional portfolio. P.S. The logo is an image of a chao, a small creature from the Sonic Adventure series. If you know, you know.
 
+[Link to Portfolio](https://jtweedle1.github.io/Week-2-Portfolio/)
+
 ## Features ##
 * Responsive web design that changes depending on screen size
 * Flexible header and footer

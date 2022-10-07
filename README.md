@@ -3,7 +3,7 @@
 ## Screenshot ##
 
 <p align="center">
-  <img src="[http://some_place.com/image.png](https://raw.githubusercontent.com/jtweedle1/Week-2-Portfolio/main/images/pictureofportfolio.png)" />
+  <img src="https://raw.githubusercontent.com/jtweedle1/Week-2-Portfolio/main/images/pictureofportfolio.png"/>
 </p>
 ![image of website](https://raw.githubusercontent.com/jtweedle1/Week-2-Portfolio/main/images/pictureofportfolio.png)
 

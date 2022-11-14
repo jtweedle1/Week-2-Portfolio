@@ -285,7 +285,7 @@ span {
  .work3 {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    background-image: url("../images/portfolio4.png");
+    background-image: url("https://i.ibb.co/rwpnTVr/portfolio4.png");
     background-size: fill;
     background-repeat: no-repeat;
     width: 30vw;

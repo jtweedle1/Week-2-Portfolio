@@ -285,7 +285,7 @@ span {
  .work3 {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    background-image: url("../images/portfolio3.png");
+    background-image: url("../images/portfolio4.png");
     background-size: fill;
     background-repeat: no-repeat;
     width: 30vw;
@@ -299,6 +299,30 @@ span {
  }
 
  .work3:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+ }
+
+ .work4 {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    background-image: url("../images/portfolio3.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    width: 30vw;
+    border: 3px solid #FF5733;
+    border-style: dashed;
+    border-radius: 25px;
+    background-color: white;
+    width: 30vw;
+    height: 10vw;
+    margin: 5px;
+ }
+
+ .work4:hover {
     filter: grayscale(0%);
     filter: gray;
     -webkit-filter: grayscale(0%);
